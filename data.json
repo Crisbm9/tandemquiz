@@ -1,0 +1,232 @@
+{
+    "title":"Preguntas Aranjuez",
+    "id_test":"",
+    "description": "Quiztandem. Responde nuestras preguntas sobre Aranjuez",
+    "author": "Cristina",
+    "img":{
+        "url": "img/palacio.jpg",
+        "alt": "palacioAranjuez"
+    },
+    "questions" : [[
+    {
+    "id": 1,
+    "question": "¿Cuántas torres conforman la fachada de San Pascual?",
+    "answers":{
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+    },
+    "results":{
+        "a": true,
+        "b": false,
+        "c": false,
+        "d": false
+    },
+    "img_question":{
+        "url": "./img/sanpascual.jpg",
+        "alt": "sanpascual",
+        "desc": "fachada del convento de san pascual en Aranjuez"
+    },
+    "hint": "pista: es un número par",
+    "curiosity": "Dicho altar contó inicialmente con varias pinturas realizadas bajo encargo por Giovanni Battista Tiepolo, pero con el cambio de gustos, fueron retiradas sin muchos miramientos y resultaron dañadas. Casi todas las que subsisten se guardan en el Museo del Prado."
+    },{
+    "id": 2,
+    "question": "¿Cuál de éstos usos se le dió a la iglesia y al convento de San Pascual en momentos históricos clave?",
+    "answers":{
+        "a": "Residencia de ancianos",
+        "b": "Residencia de vacaciones",
+        "c": "Orfanato",
+        "d": "Hospital Militar y Prisión de Mujeres"
+    },
+    "results":{
+        "a": false,
+        "b": false,
+        "c": false,
+        "d": true
+    },
+    "img_question":{
+        "url": "./img/sanpascual.jpg",
+        "alt": "sanpascual",
+        "desc": "fachada del convento de san pascual en Aranjuez"
+    },
+    "hint": "pista: había presos",
+    "curiosity": "Pertenece a Patrimonio Nacional, siendo declarado Bien de Interés Cultural en 1999"
+  },{
+    "id": 3,
+      "question": "¿En qué estilo arquitectónico está construida la fachada de la Iglesia de San Pascual?",
+      "answers":{
+          "a": "clásico",
+          "b": "Neoclásico",
+          "c": "barroco",
+          "d": "renancentista"
+      },
+      "results":{
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+      },
+      "img_question":{
+          "url": "./img/sanpascual.jpg",
+          "alt": "sanpascual",
+          "desc": "fachada del convento de san pascual en Aranjuez"
+      },
+      "hint": "varios edificios de patrimonio tienen el mismo estilo",
+      "curiosity": "De planta latina y con numerosas capillas, la iglesia posee en su altar mayor un cuadro de Antonio Rafael Mengs representando a San Pascual Bailón adorando al Santísimo Sacramento"
+  },{
+    "id": 4,
+    "question": "¿Con que se unen las galerías de arcos de la iglesia de San Antonio?",
+    "answers":{
+        "a": "Palacio de Aranjuez",
+        "b": "Jardín de la Isla",
+        "c": "Iglesia de San Pascual",
+        "d": "Casa de Infantes y Casa de Oficios"
+    },
+    "results":{
+        "a": false,
+        "b": false,
+        "c": false,
+        "d": true
+    },
+    "img_question":{
+        "url": "./img/sanantonio.jpg",
+        "alt": "sanantonio",
+        "desc": "fachada de la iglesia de San Antonio en Aranjuez"
+    },
+    "hint": "puede ser la b o la d",
+    "curiosity": " Se comenzó a construir en 1752 y su autor fue Santiago Bonavía. Carlos III mandó ampliar la capilla, incorporándose una gran pieza cuadrada con cubierta a dos aguas."
+  },{
+    "id": 5,
+    "question": "¿A qué rama del cristianismo pertenece la iglesia de Alpajés?",
+    "answers":{
+        "a": "Protestante",
+        "b": "Ortodoxa",
+        "c": "Católica",
+        "d": "Cienciología"
+    },
+    "results":{
+        "a": false,
+        "b": false,
+        "c": true,
+        "d": false
+    },
+    "img_question":{
+        "url": "./img/alapajes.jpg",
+        "alt": "alpajes",
+        "desc": "Fachada de la iglesia de Alpajes"
+    },
+    "hint": "La religión más común en España",
+    "curiosity": "La cienciología se desarrollóen 1954 por el autor estadounidense L. Ron Hubbard."
+  },{
+    "id": 6,
+    "question": "¿como se denomina también la iglesia de Alpajés?",
+    "answers":{
+        "a": "Iglesia pequeñita",
+        "b": "Iglesia de Nuestra Señora de las Angustias",
+        "c": "Iglesia de Aranjuez viejo",
+        "d": "Iglesia de la Virgen de las Angustias"
+    },
+    "results":{
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": false
+    },
+    "img_question":{
+        "url": "./img/alapajes.jpg",
+        "alt": "alpajes",
+        "desc": "Fachada de la iglesia de Alpajes"
+    },
+    "hint": "Tiene que ver con Angustias",
+    "curiosity": "Posee una planta de cruz latina. Se encontraba ubicada en el antiguo barrio medieval de Alpajés que fue absorbido durante el ensanche de Aranjuez en el siglo xviii"
+  },{
+    "id": 7,
+      "question": "¿En qué está inspirada la forma de la Iglesia de San Antonio?",
+      "answers":{
+          "a": "Palacio de El Escorial",
+          "b": "Templo griego",
+          "c": "Panteón de Roma",
+          "d": "Coliseo de Roma"
+      },
+      "results":{
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": false
+      },
+      "img_question":{
+          "url": "./img/sanantonio.jpg",
+          "alt": "sanantonio",
+          "desc": "fachada de la iglesia de San Antonio en Aranjuez"
+      },
+      "hint": "Algo romano",
+      "curiosity": "Fernando VI mandó construir una capilla dedicada a San Antonio de Padua en el costado sur de la plaza principal que da entrada al Real Sitio que sustituyera al Oratorio de tiempos de Felipe IV."
+  },{
+    "id": 8,
+    "question": "¿Quién mandó construir la iglesia de San Antonio?",
+    "answers":{
+        "a": "Fernando VI",
+        "b": "Carlos III",
+        "c": "Alfonso XII",
+        "d": "Fernando VII"
+    },
+    "results":{
+        "a": true,
+        "b": false,
+        "c": false,
+        "d": false
+    },
+    "img_question":{
+        "url": "./img/sanantonio.jpg",
+        "alt": "sanantonio",
+        "desc": "fachada de la iglesia de San Antonio en Aranjuez"
+    },
+    "hint": "Fue un Fernando",
+    "curiosity": "La iglesia de San Antonio de Aranjuez es un templo de concepción barroca."
+  },{
+    "id": 9,
+    "question": "¿Cuál es la piedra que más abunda en las construcciones de Aranjuez?",
+    "answers":{
+        "a": "Granito",
+        "b": "Ladrillo",
+        "c": "Marmol",
+        "d": "Piedra de colmenar"
+    },
+    "results":{
+        "a": false,
+        "b": false,
+        "c": false,
+        "d": true
+    },
+    "img_question":{
+        "url": "./img/fuente.jpg",
+        "alt": "fuente",
+        "desc": "Fuente de Aranjuez"
+    },
+    "hint": "Algún tipo de piedra",
+    "curiosity": "La Piedra Caliza de Colmenar es una piedra especialmente idónea para soportar esfuerzos a compresión que presenta una elevada resistencia y durabilidad."
+  },{
+    "id": 10,
+    "question": "¿Qué deidad mitológica representa la escultura principal de la Fuente de Mariblanca?",
+    "answers":{
+        "a": "Afrodita",
+        "b": "Venus del jarro",
+        "c": "Hera",
+        "d": "Saturno"
+    },
+    "results":{
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": false
+    },
+    "img_question":{
+        "url": "./img/fuente.jpg",
+        "alt": "fuente",
+        "desc": "Fuente de Aranjuez"
+    },
+    "hint": "puede ser la b o la d",
+    "curiosity": "La fuente es rica en motivos acuáticos, típicos de la iconografía de la ciudad."
+  }
+  ]]}

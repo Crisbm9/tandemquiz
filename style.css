@@ -1,9 +1,10 @@
 /* input[type="radio"]{
   display: none;
-}
+} */
 input:checked + label{
   background-color: blueviolet;
 }
 label{
-  border:solid 1px black
-} */
+  border:solid 1px black;
+  padding: 1em
+} 

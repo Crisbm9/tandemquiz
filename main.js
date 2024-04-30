@@ -14,7 +14,7 @@ function createRadioInputs(questionData, formElement) {
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
-    console.log(data);
+    // console.log(data);
     // createHeader(data);
     // pregunta(data.questions);
 
@@ -45,11 +45,25 @@ const questions = data.questions[0];
           createRadioInputs(question, formElement);
           questionContainer.appendChild(formElement);
           document.body.appendChild(questionContainer);
+
+          const button = document.createElement('button');
+          button.textContent='responder';
+          button.id=`btn-q${index + 1}`
+          button.type='button'
+          button.onclick= function(){
+         checkQuestion(button.id)
+         // alert(button.id)
+         
+          }
+          formElement.appendChild(button)
       });
 
       
-      
-
   })
 
+  function checkQuestion(id){
+  let inputs= document.querySelectorAll(`#${id} input[type=radio]`)
+  console.log(inputs)
+  
+  }
   

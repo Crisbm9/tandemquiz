@@ -8,3 +8,15 @@ label{
   border:solid 1px black;
   padding: 1em
 } 
+h1{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+h3{
+  padding: 1em;
+}
+img{
+  align-items: center;
+}
